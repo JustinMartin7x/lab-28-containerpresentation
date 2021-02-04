@@ -9,9 +9,8 @@ describe('Article item component', () => {
   it ('renders an article', () => {
     const { asFragment } = render(<ArticleList 
       articles={[]}
-
-      />
-      );
+    />
+    );
 
     expect(asFragment()).toMatchSnapshot();
   });
