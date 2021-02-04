@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Form from '../../form/Form';
-import ArticleList from '../articleItem/ArticleList.js';
+import Form from '../form/Form';
+import ArticleList from '../ArticleList/ArticleList.js';
 
 export default function NewsContainer() {
   const [articles, setArticles] = useState([]);
